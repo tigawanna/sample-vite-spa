@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      daisyui-devtools:
-        specifier: link:/home/dennis/Desktop/code/npm/daisyui-devtools
-        version: link:../../../npm/daisyui-devtools
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -39,6 +36,9 @@ importers:
       daisyui:
         specifier: ^4.12.13
         version: 4.12.13(postcss@8.4.47)
+      daisyui-devtools:
+        specifier: link:/home/dennis/Desktop/code/npm/daisyui-devtools
+        version: link:../../../npm/daisyui-devtools
       eslint:
         specifier: ^9.11.1
         version: 9.12.0(jiti@1.21.6)
@@ -51,6 +51,9 @@ importers:
       globals:
         specifier: ^15.9.0
         version: 15.11.0
+      magicast:
+        specifier: ^0.3.5
+        version: 0.3.5
       postcss:
         specifier: ^8.4.47
         version: 8.4.47
@@ -1179,6 +1182,9 @@ packages:
 
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
+
+  magicast@0.3.5:
+    resolution: {integrity: sha512-L0WhttDl+2BOsybvEOLK7fW3UA0OQ0IQ2d6Zl2x/a6vVRs3bAY0ECOSHHeL5jD+SbOpOCUEi0y1DgHEn9Qn1AQ==}
 
   media-typer@0.3.0:
     resolution: {integrity: sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==}
@@ -2771,6 +2777,12 @@ snapshots:
   lru-cache@5.1.1:
     dependencies:
       yallist: 3.1.1
+
+  magicast@0.3.5:
+    dependencies:
+      '@babel/parser': 7.25.8
+      '@babel/types': 7.25.8
+      source-map-js: 1.2.1
 
   media-typer@0.3.0: {}
 
